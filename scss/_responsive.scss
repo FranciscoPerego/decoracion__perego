@@ -1,0 +1,82 @@
+/*Reseteo de CSS*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*MEDIA QUERIES*/
+/*SMARTPHONE PANTALLA CHICA*/
+@media (max-width: 320px) {
+  p {
+    color: white;
+  }
+
+  .footerInicio {
+    color: $amarillo;
+    font-weight: bold;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  }
+
+  .footerOtrasSecciones {
+    color: $amarillo;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+  }
+}
+
+/*SMARTPHONE*/
+@media (max-width: 576px) {
+  p {
+    color: white;
+  }
+
+  .footerInicio {
+    color: $amarillo;
+    font-weight: bold;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  }
+
+  .footerOtrasSecciones {
+    color: $amarillo;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+  }
+}
+
+/*TABLET*/
+@media (min-width: 577px) and (max-width: 768px) {
+  span {
+    color: #e3f2fd;
+  }
+
+  .footerInicio {
+    color: $amarillo;
+    font-weight: bold;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  }
+
+  .footerOtrasSecciones {
+    color: $amarillo;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+  }
+}

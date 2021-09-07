@@ -1,0 +1,31 @@
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 100%;
+}
+
+nav {
+  float: left;
+
+  ul {
+    list-style: none;
+    overflow: hidden;
+
+    li {
+      float: left;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+
+      a {
+        display: block;
+        padding: 20px;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      &:hover {
+        background: $rosa;
+      }
+    }
+  }
+}

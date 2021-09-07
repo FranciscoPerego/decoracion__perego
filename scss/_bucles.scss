@@ -1,0 +1,6 @@
+/*BUCLES*/
+@for $i from 1 through 4 {
+    h#{$i} { 
+        font: 2.5em / $i;
+    }
+  }
