@@ -76,15 +76,20 @@ h4 {
 
 /*GRADIENTES*/
 .grad {
-  background-image: linear-gradient(to bottom left, pink, white, #e3f2fd, black); }
+  background-image: linear-gradient(to bottom, pink, white, #e3f2fd); }
 
 header {
   width: 100%;
   position: absolute;
-  z-index: 100%; }
+  z-index: 100%;
+  margin-bottom: 0px; }
 
 nav {
-  float: left; }
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none; }
   nav ul {
     list-style: none;
     overflow: hidden; }
@@ -124,7 +129,8 @@ body {
 h1 {
   color: black;
   background-color: black;
-  font-size: 3rem; }
+  font-size: 3rem;
+  margin-bottom: 0px; }
 
 span {
   color: pink; }
@@ -157,7 +163,8 @@ p {
   position: absolute;
   margin-top: 10px;
   width: 100%;
-  height: 40px; }
+  height: 40px;
+  text-align: left; }
 
 .links {
   color: lightblue;
@@ -292,12 +299,6 @@ table {
       height: 100%; }
 
 /*FlexBox*/
-.padreFlex {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
-
 .menuFlex {
   display: flex;
   flex-direction: column; }
