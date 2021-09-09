@@ -5,7 +5,7 @@
 
 /*MEDIA QUERIES*/
 /*SMARTPHONE PANTALLA CHICA*/
-@media (max-width: 320px) {
+@media (min-width: 1px) and (max-width: 320px) {
   p {
     color: white; }
   .footerInicio {
@@ -24,7 +24,7 @@
     height: 40px; } }
 
 /*SMARTPHONE*/
-@media (max-width: 576px) {
+@media (min-width: 321px) and (max-width: 576px) {
   p {
     color: white; }
   .footerInicio {
@@ -113,9 +113,6 @@ nav {
 
 .fondoImagen {
   background-image: url(https://thumbs.dreamstime.com/b/pared-abstracta-negra-textura-oscura-del-cemento-como-fondo-92152003.jpg); }
-
-.fondoImagen2 {
-  background-image: url(https://image.freepik.com/foto-gratis/textura-marmol-negro-natural-papel-tapiz-azulejos-piel_24076-470.jpg); }
 
 html {
   font-size: 16px;
